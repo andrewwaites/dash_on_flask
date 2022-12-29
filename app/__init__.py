@@ -10,9 +10,9 @@ def create_app():
     server = Flask(__name__)
     server.config.from_object(BaseConfig)
 
-    from app.dashapp1.layout import layout as layout1
-    from app.dashapp1.callbacks import register_callbacks as register_callbacks1
-    register_dashapp(server, 'Dashapp 1', 'dashboard', layout1, register_callbacks1)
+    from sca_dash.layout import layout as layout1
+    from sca_dash.callbacks import register_callbacks as register_callbacks1
+    register_dashapp(server, 'SCA Dashboard', 'sca_dashboard', layout1, register_callbacks1)
 
     from app.dashapp2.layout import layout as layout2
     from app.dashapp2.callbacks import register_callbacks as register_callbacks2
