@@ -5,6 +5,14 @@ from flask_login import login_required
 
 from config import BaseConfig
 
+external_stylesheets = [
+    {
+        "href": "https://fonts.googleapis.com/css2?"
+        "family=Lato:wght@400;700&display=swap",
+        "rel": "stylesheet",
+    },
+]
+
 
 def create_app():
     server = Flask(__name__)
@@ -12,7 +20,7 @@ def create_app():
 
     from sca_dash.layout import layout as layout1
     from sca_dash.callbacks import register_callbacks as register_callbacks1
-    register_dashapp(server, 'SCA Dashboard', 'sca_dashboard', layout1, register_callbacks1)
+    register_dashapp(server, 'SCA Dashboard', 'sca_dash', layout1, register_callbacks1)
 
     from app.dashapp2.layout import layout as layout2
     from app.dashapp2.callbacks import register_callbacks as register_callbacks2
@@ -23,7 +31,6 @@ def create_app():
 
     return server
 
-
 def register_dashapp(app, title, base_pathname, layout, register_callbacks_fun):
     # Meta tags for viewport responsiveness
     meta_viewport = {
@@ -33,7 +40,8 @@ def register_dashapp(app, title, base_pathname, layout, register_callbacks_fun):
     my_dashapp = dash.Dash(__name__,
                            server=app,
                            url_base_pathname=f'/{base_pathname}/',
-                           assets_folder=get_root_path(__name__) + f'/{base_pathname}/assets/',
+                           assets_folder=get_root_path(__name__) + f'/../{base_pathname}/assets/',
+                           external_stylesheets=external_stylesheets,
                            meta_tags=[meta_viewport])
 
     with app.app_context():

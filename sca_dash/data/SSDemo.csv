@@ -1,0 +1,76 @@
+,SSDemo
+0,Purchase_Intent_N12Mnths_Used Car
+1,Purchase_Intent_N12Mnths_New Car
+2,Purchase_Intent_N12Mnths_Domestic Holiday
+3,Purchase_Intent_N12Mnths_International Holiday
+4,Purchase_Intent_N12Mnths_Regional Australia Holiday
+5,Purchase_Intent_N12Mnths_Caravan
+6,Purchase_Intent_N12Mnths_Boat
+7,Purchase_Intent_N12Mnths_General furniture
+8,Purchase_Intent_N12Mnths_White goods
+9,Purchase_Intent_N12Mnths_Small electrical goods
+10,Purchase_Intent_N12Mnths_Computer / Tablet / iPad
+11,Purchase_Intent_N12Mnths_Mobile / Smartphone
+12,Purchase_Intent_N12Mnths_Renovation materials
+13,Purchase_Intent_N6Mnths_Garden / Nursery Products
+14,Purchase_Intent_N6Mnths_Apparel / Shoes / Accessories
+15,Purchase_Intent_N6Mnths_Sport / Fitness Products
+16,Purchase_Intent_N6Mnths_Health / Beauty Products
+17,Purchase_Intent_N6Mnths_Homewares
+18,Purchase_Intent_N6Mnths_Outdoor Clothing / Equipment
+19,Purchase_Intent_N6Mnths_Car Parts & Accessories
+20,CarPurchase_SmallCarSUV
+21,CarPurchase_LargeCarSUV
+22,CarPurchase_UteVan
+23,Property_Intentions_Buy home to live in
+24,Property_Intentions_Buy an investment property
+25,Property_Intentions_Sell a property
+26,Property_Intentions_Rent a new property to live in
+27,Property_Intentions_Move house
+28,Property_Intentions_Build / rebuild a home
+29,Property_Intentions_Renovations
+30,First_Home_Buyer
+31,Activities_N6Mnths_Purchase or reassess life insurance
+32,Activities_N6Mnths_Purchase or reassess health insurance
+33,Activities_N6Mnths_Purchase or reassess motor vehicle insurance
+34,Activities_N6Mnths_Purchase or reassess home/contents insurance
+35,Activities_N6Mnths_Reassess who I bank with
+36,Activities_N6Mnths_Obtain or reassess a mortgage
+37,Activities_N6Mnths_Sign up or reassess a mobile phone plan
+38,Activities_N6Mnths_Sign up or reassess an internet plan
+39,Activities_N6Mnths_Sign up to a new streaming service I've not used previously (e.g. Netflix)
+40,Activities_N6Mnths_Re-subscribe to a streaming service I had previously cancelled
+41,Activities_N6Mnths_Change or reassess superannuation funds
+42,Activities_N6Mnths_Change electricity/gas supplier
+43,Activities_N6Mnths_Obtain or reassess a car loan
+44,Activities_N6Mnths_Obtain or reassess a personal loan
+45,Activities_N6Mnths_Start or reassess a gym/fitness centre membership
+46,Activities_N6Mnths_Look for or start a new career / role
+47,Activities_N1Month_Purchase fast food
+48,Activities_N1Month_Purchase home delivery of food (e.g. Uber Eats)
+49,Activities_N1Month_Purchase takeaway from a restaurant
+50,Activities_N1Month_Dine in at a restaurant / caf�
+51,Activities_N1Month_Visit a pub / bar
+52,Activities_N1Month_Purchase home delivered meal kit / ready-made meal service
+53,Activities_N1Month_Visit a gym / fitness centre
+54,Activities_N1Month_Visit a shopping centre
+55,Activities_N1Month_Visit a cinema
+56,Activities_N1Month_Visit an art gallery / museum
+57,Activities_N1Month_Gamble on sport  racing or lotteries
+58,Activities_N1Month_Purchase alcohol from a bottle shop / alcohol retailer
+59,Alcohol_Types_Beer
+60,Alcohol_Types_Scotch / Whisky
+61,Alcohol_Types_Dark Rum
+62,Alcohol_Types_Bourbon
+63,Alcohol_Types_White Rum
+64,Alcohol_Types_Vodka
+65,Alcohol_Types_Gin
+66,Alcohol_Types_Liqueur
+67,Alcohol_Types_Pre-Mix
+68,Alcohol_Types_White Wine
+69,Alcohol_Types_Red Wine
+70,Alcohol_Types_Sparkling Wine
+71,Finance_WellOff
+72,Finance_Comfortable
+73,Finance_GettingBy
+74,Finance_Struggle

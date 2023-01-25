@@ -13,3 +13,7 @@ __pycache__
 
 # DB
 app.db
+
+md_dash.venv/*
+sca_dash/shortened_data.csv
+
